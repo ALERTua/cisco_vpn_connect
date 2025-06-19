@@ -30,3 +30,6 @@ powershell vpn_connect.ps1 "VPN URL" "Credentials Alias"
 ### Caveats
 - The script outputs your **PLAIN TEXT PASSWORD** to the console once.
 - The connection is persistent, but the tray icon is not shown as in the GUI version, so it's hard to know if the connection is active or not.
+
+
+Написав ChatGPT. Я лише переклав на рідну мову.
