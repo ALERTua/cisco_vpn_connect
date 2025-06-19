@@ -6,7 +6,7 @@
 Cisco Anyconnect Command Line VPN Connection Script
 ---------------------
 
-Connect to Cisco Anyconnect VPN using command line. Useful if placed in the Windows Startup folder.
+Connect to Cisco AnyConnect VPN using the command line. Useful if placed in the Windows Startup folder.
 
 ### Usage
 I. Create a new generic credential in Windows Credentials Manager
@@ -21,7 +21,10 @@ I. Create a new generic credential in Windows Credentials Manager
   9. Save
   10. Don't forget to update the credentials record when you change your password. 
 
-II. Use the script to connect to VPN using the credentials alias `powershell vpn_connect.ps1 "VPN URL" "Credentials Alias"`
+II. Use the script to connect to VPN using the credentials alias
+```powershell
+powershell vpn_connect.ps1 "VPN URL" "Credentials Alias"
+```
 
 
 ### Caveats
