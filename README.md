@@ -26,6 +26,7 @@ II. Use the script to connect to VPN using the credentials alias
 powershell vpn_connect.ps1 "VPN URL" "Credentials Alias"
 ```
 You can also fill in the arguments in `vpn_connect.cmd` and place a shortcut to it in the Windows Startup folder.
+
 III. To get the connection status, you can execute `vpn_status.cmd`
 IV. To disconnect, you can execute `vpn_disconnect.cmd`
 
