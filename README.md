@@ -30,7 +30,7 @@ IV. To disconnect you can execute `vpn_disconnect.cmd`
 
 ### Caveats
 - The script outputs your **PLAIN TEXT PASSWORD** to the console once.
-- The connection is persistent, but the tray icon is not shown as in the GUI version, so it's hard to know if the connection is active or not.
-
+- The connection is persistent, but the tray icon is not shown as in the GUI version. 
+- If you are disconnected for any reason, you'll still get the GUI dialog about the connection being lost.
 
 Написав ChatGPT. Я лише переклав на рідну мову.
