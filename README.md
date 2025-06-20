@@ -3,7 +3,7 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 [![Russian Warship Go Fuck Yourself](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/RussianWarship.svg)](https://stand-with-ukraine.pp.ua)
 
-Cisco Anyconnect Command Line VPN Connection Script
+Cisco AnyConnect Command Line VPN Connection Script
 ---------------------
 
 Connect to Cisco AnyConnect VPN using the command line. Useful if placed in the Windows Startup folder.
@@ -25,8 +25,9 @@ II. Use the script to connect to VPN using the credentials alias
 ```powershell
 powershell vpn_connect.ps1 "VPN URL" "Credentials Alias"
 ```
-III. To get the connection status you can execute `vpn_status.cmd`
-IV. To disconnect you can execute `vpn_disconnect.cmd`
+You can also fill in the arguments in `vpn_connect.cmd` and place a shortcut to it in the Windows Startup folder.
+III. To get the connection status, you can execute `vpn_status.cmd`
+IV. To disconnect, you can execute `vpn_disconnect.cmd`
 
 ### Caveats
 - The script outputs your **PLAIN TEXT PASSWORD** to the console once.
