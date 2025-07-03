@@ -45,6 +45,7 @@ if (-Not (Test-Path $VpnCliPath)) {
 if (Check-VpnStatus) {
     exit 0
 }
+taskkill /f /im "vpnui.exe"
 
 # --- Load CredentialManager ---
 if (-not (Get-Module -ListAvailable -Name CredentialManager)) {
